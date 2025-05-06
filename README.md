@@ -8,8 +8,6 @@ Run in Azure Sentinel to flag users with >5 failed logins or logins from >2 loca
 ## Compliance Alignment
 This project supports compliance with standards like NIST 800-53 (SI-4: Information System Monitoring) by detecting unauthorized access attempts (e.g., 200 failed logins). Queries can be adapted for audit logging or HIPAA security rule requirements—ensuring traceability and risk management.
 
-Built by Frank Johnson, CompTIA CSAP | CySA+ certified.
-
 ## Query
 ```kql
 SigninLogs
